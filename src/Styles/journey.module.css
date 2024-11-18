@@ -1,0 +1,63 @@
+.journeyContainer {
+  background-color: #072638;
+  padding: 5rem;
+  margin-top: 2.5rem;
+  width: 85%;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow-x: hidden; 
+}
+
+.journeyArticle {
+  background-color: #f1c886;
+  color: #072638;
+  border: 2px solid #061f2e;
+  border-radius: 1rem;
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin: 1rem;
+  max-width: 100%; 
+  overflow-x: hidden;
+}
+
+.journeyHeading {
+  text-align: center;
+  color: #072638;
+  font-size: 2.25rem;
+  font-weight: 800;
+  margin-top: 0.5rem;
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 2.5rem;
+  word-wrap: break-word;
+}
+
+.journeyParagraph {
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+  font-size: 1.25rem;
+  color: #4b5563;
+  text-align: center;
+  letter-spacing: 0.025em;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  word-wrap: break-word; 
+}
+
+@media (min-width: 640px) {
+  .journeyHeading {
+      font-size: 2.5rem;
+  }
+  .journeyParagraph {
+      font-size: 1.2rem;
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
+  }
+}
+
+  
