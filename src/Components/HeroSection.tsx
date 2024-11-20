@@ -15,7 +15,7 @@ const HeroSection: React.FC = () => {
           <h1 className="md">I am Syeda Qurrat-ul-Ain</h1>
           <h2 className="lg">Navigating Code & Intelligence <br /> Next.js, TypeScript & AI Enthusiast</h2>
           <p className={styles['hero-description']}>
-            Passionate about building seamless user experiences with Next.js and TypeScript. Let's collaborate!
+            Passionate about building seamless user experiences with Next.js and TypeScript. Let&#39;s collaborate!
           </p>
           <div className={styles['hero-buttons']}>
             <a href="/contact">

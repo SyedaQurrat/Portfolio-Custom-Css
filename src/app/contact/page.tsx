@@ -34,7 +34,7 @@ const ContactPage = () => {
     <div className={styles.container}>
       <div className="flex-1">
         <h1 className={styles.heading}>Get in Touch</h1>
-        <p className={styles.subheading}>We'd love to hear from you. Please fill out the form below to send us a message.</p>
+        <p className={styles.subheading}>We&#39;d love to hear from you. Please fill out the form below to send us a message.</p>
         <div className={styles.contactInfo}>
           <h2 className="text-xl font-semibold mb-4">Contact Information</h2>
           <ul className="space-y-4">
